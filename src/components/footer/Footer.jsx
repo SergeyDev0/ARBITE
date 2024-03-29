@@ -24,7 +24,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="footer__contacts-list__item">
-                <Link to="" className="footer__contacts-list__item--link">
+                <Link to="https://yandex.ru/maps/-/CDRmaO0Z" target="_blank" className="footer__contacts-list__item--link">
                   <img className="footer__contacts-list__item--icon" src={locationIcon} />
                   Ставрополь, ул. Пирогова, 36Б, 1 этаж
                 </Link>

@@ -1,0 +1,32 @@
+[
+  {
+    "name" : "Крепёж и фурнитура",
+    "description" : "Гвозди, дюбели, уголки, саморезы, анкера, хомуты и пр. (на развес и поштучно)",
+    "img" : "https://avatars.mds.yandex.net/get-sprav-products/5399152/2a0000018825a3e51adc8165e9ab41f6cc3d/XXL"
+  },
+  {
+  "name" : "Сантехника",
+    "description" : "Смесители, унитазы, раковины, ремкомплекты, душевые шланги и насадки, водяные счётчики и пр.",
+    "img" : "https://avatars.mds.yandex.net/get-sprav-products/9854027/2a0000018825a38e4c268b0e41befc6fd04e/XXL"    
+  },
+  {
+    "name" : "Строительная химия",
+    "description" : "Монтажная пена, жидкие гвозди, клеи, гели, изолента и пр.",
+    "img" : "https://avatars.mds.yandex.net/get-sprav-products/9685839/2a0000018825a395cb9581a0237d73e9bc7a/XXL"
+  },
+  {
+    "name" : "Садовый инвентарь и инструмент",
+    "description" : "Лопаты, грабли, тяпки, черенки, вилы, веники, совки и пр.",
+    "img" : "https://avatars.mds.yandex.net/get-sprav-products/9854027/2a0000018825a3a0a80853c2953c2162153d/XXL"
+  },
+  {
+    "name" : "Лакокрасочные материалы",
+    "description" : "Низкие цены, профессиональный подбор!",
+    "img" : "https://avatars.mds.yandex.net/get-sprav-products/9854027/2a0000018825a3c0d343ced9ec409d816fd7/XXL"
+  },
+  {
+    "name" : "Строительный электроинструмент",
+    "description" : "Шуруповерты, дрели, шлифмашинки, сварочные аппараты, перфораторы, бензопилы, паяльные лампы.",
+    "img" : "https://avatars.mds.yandex.net/get-sprav-products/9685839/2a0000018825a3944bcc9282fac0499e06c8/XXL"
+  }
+]
