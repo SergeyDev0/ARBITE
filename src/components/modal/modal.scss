@@ -1,0 +1,100 @@
+.modal {
+  width: auto;
+  height: 500px;
+  background-color: #fff;
+  padding: 20px;
+  padding-top: 45px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: .4s;
+  bottom: 100%;
+
+  &__wrapper {
+    height: 100dvh;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 6;
+    visibility: hidden;
+    transition: .4s;
+
+    &.show {
+      visibility: visible;
+      background-color: rgba(30, 30, 30, .3);
+
+      & .modal {
+        bottom: auto;
+      }
+    }
+
+    &__card-content {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      height: 100%;
+    }
+  }
+
+  &__wrapper-card {
+    display: flex;
+    height: 100%;
+  }
+
+  &__close {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+
+    &--img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  & .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & .col {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  &__logo {
+    height: 45px;
+  }
+
+  &__img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+    &-wrapper {
+      height: 60%;
+      flex-grow: 1;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    &:last-child {
+      margin-top: .5rem;
+    }
+  }
+}
