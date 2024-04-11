@@ -19,7 +19,7 @@
   }
 
   &__wrapper {
-    height: 0;
+    height: 100dvh;
     width: 100vw;
     position: fixed;
     left: 0;
@@ -35,7 +35,7 @@
     &.show {
       visibility: visible;
       background-color: rgba(30, 30, 30, .3);
-      height: 100dvh;
+      
 
       & .modal {
         bottom: auto;
