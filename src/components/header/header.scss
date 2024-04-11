@@ -9,7 +9,10 @@
 
   @media screen and (max-width: 1200px) {
     width: 100%;
+    padding: 0.5rem 20px;
+    box-sizing: border-box;
   }
+
 
   &__logo {
     width: 100%;
@@ -18,12 +21,20 @@
 
     &-wrapper {
       height: 60px;
+
+      @media screen and (max-width: 600px) {
+        height: 50px;
+      }
     }
   }
 
   &__nav-list {
     display: flex;
     gap: 3rem;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
 
     &__item--link {
       font-weight: 600;

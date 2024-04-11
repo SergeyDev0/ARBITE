@@ -36,7 +36,7 @@ const Footer = () => {
           <h3 className="footer__title">Мы на карте</h3>
           <YMaps>
             <div className="footer__map">
-              <Map defaultState={{ center: [45.006650, 41.917011], zoom: 17 }} width='100%' >
+              <Map defaultState={{ center: [45.006650, 41.917011], zoom: 17 }} width='100%'>
                 <Placemark geometry={[45.006650, 41.917011]} />
               </Map>
             </div>
